@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import Login from "./component/Login";
+import Home from "../src/page/Home"
+import Header from "../src/component/Header"
+import Admin from "../src/page/Admin"
+import Student from "../src/page/Student"
+import { BrowserRouter as Router, Routes, Route, Link, BrowserRouter } from 'react-router-dom';
+import AddStudent from "./page/AddStudent";
+import Staff from "./page/Staff";
+import Mathe from "./page/Mathe";
+import ManageStaff from "./page/ManageStaff";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+   <BrowserRouter>    
+     
+      <Routes>
+       
+      <Route
+        path="/" exact
+        element={ <Home/>}
+      ></Route>
+
+      <Route path="/admin" exact element={<Admin/>}/>
+      <Route path="/staff" exact element={<Staff/>}/>
+      <Route path="/admin/manage-students" exact element={<Student/>}/>
+      <Route path="/admin/manage-staff" exact element={<ManageStaff/>}/>
+      <Route path="/admin/add-student" exact element={<AddStudent/>}/>
+      <Route path="/staff/mathe" exact element={<Mathe/>}/>
+
+      </Routes>
+      </BrowserRouter>
+      
+     
+     
     </div>
   );
 }

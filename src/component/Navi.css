@@ -1,0 +1,20 @@
+nav{
+    background-color: rgb(83, 186, 200);
+    height: 50px;
+    display: flex;
+    width: 100%;
+    
+
+}
+nav ul{
+    margin-left: 29px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav li{
+   padding-right: 15px;
+   color: white;
+ 
+}
