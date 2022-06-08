@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "firstName": "Jenny",
+      "lastName": "Chan",
+      "dob": "1985-02-25",
+      "gender": "Female",
+      "department": "Biotech",
+      "joined":"2015-04.01",
+      "email": "jenny@live.com"
+    },
+    {
+        "id": 2,
+        "firstName": "Roman",
+        "lastName": "Behroz",
+        "dob":"1997-12-13",
+        "gender": "Male",
+        "department": "Technology",
+        "joined":"2019.04.01",
+        "email": "romanbrkz@live.com"
+      },
+      {
+          "id": 3,
+          "firstName": "Hoda",
+          "lastName": "Yousof",
+          "dob": "1997-10-11",
+          "gender": "Female",
+          "department": "Biotech",
+          "joined":"2017.10.01",
+          "email": "hodaayousof@live.com"
+        }
+  ]
