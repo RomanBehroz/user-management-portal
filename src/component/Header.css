@@ -1,0 +1,16 @@
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: rgb(102, 102, 102);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    padding-left: 5%;
+    max-width: 1200px;
+}
